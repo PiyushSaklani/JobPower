@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --primary-color: #0466c8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-screen-div {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(100, 1%);
+    grid-template-rows: repeat(100, 1%);
+
+    position: relative;
+}
+
+.main-screen-appbar {
+    grid-row: 1/10;
+    grid-column: 1/101;
+    background-color: var(--primary-color);
+
+    display: grid;
+    grid-template-columns: repeat(100, 1%);
+
+    align-content: center;
+}
+
+.main-screen-menu-btn {
+    grid-column: 2/7;
+    padding: 20%;
+    /* background-color: aliceblue; */
+}
+
+.menu-icon {
+    height: 30px;
+    width: 40px;
+    background-image: url('../../../icons/menu.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.user-name{
+    grid-column: 70/98;
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.main-screen-menu-title{
+    grid-column: 1/25;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.menu-back-btn{
+    width: 40px;
+    height: 25px;
+
+    background-image: url('../../../icons/back-arrow.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main-screen-menu {
+    grid-row: 10/101;
+    grid-column: 1/25;
+    background-color: var(--primary-color);
+
+    z-index: 2;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.menu-item{
+    padding-left: 60px;
+    /* background-color: aliceblue; */
+    
+    height: 50px;
+    width: 100%;
+    
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-item:hover{
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.signOut-btn-div{
+    width: 100%;
+    height: 50px;
+    
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    
+    padding: 5px 40px;
+}
+
+.signOut-btn{
+    border: none;
+    border-radius: 5px;
+    
+    color: var(--primary-color);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.signOut-btn:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.main-screen-maindiv{
+    grid-row: 10/101;
+    grid-column: 1/101;
+
+    z-index: 1;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.ms-image-div{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-title, .main-title{
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-title{
+    font-size: 52px;
+    font-weight: 800;
+}
+
+.title-ms-div{
+    /* background-color: #0466c8; */
+}
+
+.ms-image{
+    height: 50%;
+    width: 50%;
+
+    background-image: url('../../../images/v2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ms-p{
+    color: gray;
+}

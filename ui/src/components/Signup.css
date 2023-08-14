@@ -1,0 +1,114 @@
+.elements {
+  padding: 0;
+  margin: 0;
+}
+
+.signup-main-con {
+  width: 100%;
+  height: 100vh;
+  background-color: #0466c8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.signup-bg-con {
+  width: 50%;
+  height: 100%;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 20%;
+}
+
+.signup-con{
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  padding: 50px;
+}
+
+.signup-blur-container{
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(4, 102, 200, 0.6);
+  height: 103%;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 15px;
+  /* padding: 8%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-title{
+  color: #0466c8;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  margin-bottom: 1%;
+  /* margin-top: 0.2%; */
+}
+
+.signup-subtitle{
+  color: #636363;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  margin-bottom: 1%;
+  margin-top: 10%;
+}
+
+.slogan{
+  color: #7f7f7f;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: x-large;
+  padding-top: 5%;
+}
+
+
+
+#signup-subheading{
+  color: #0466c8;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.signup-bottom{
+  margin-top: 4%;
+  margin-bottom: 3%;
+  width: 100%;
+  display: flex;
+  font-weight: 500;
+  font-size: large;
+  justify-content: center;
+}
+
+.signup-btn{
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+  background-color: #0466c8;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.signup-btn:hover{
+  background-color: #0353A4;
+}
+
+.signup-bottom-con{
+  margin-top: 5%;
+}
+
+.signup-bottom-text{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

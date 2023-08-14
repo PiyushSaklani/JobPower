@@ -1,0 +1,99 @@
+.element{
+  padding: 0;
+  margin: 0;
+}
+
+.ms-main-con{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.ms-title-bar{
+  width: 100%;
+  height: 10%;
+  background-color: #0466c8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.ms-title{
+  color: white;
+  font-weight: 800;
+}
+
+.ms-con{
+  width: 100%;
+  height: 90%;
+  background-image: url('background1.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ms-blur-con{
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+  height: 80%;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.ms-welcome{
+  color: #023e7d;
+}
+
+.ms-display-name{
+  font-size: 20px;
+  padding-top: 7px;
+  padding-left: 73%;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.main-main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('background1.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 110px 500px;
+  }
+
+  .main-title{
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+.main-subheading{
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.login-btn{
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
