@@ -1,4 +1,4 @@
-# Job Portal
+# JobPower
 A job portal made using React, Node.js, and MongoDB is a full-stack web application that allows users to search for job listings, create profiles, and apply for jobs.
 
 ## Technology Stack
